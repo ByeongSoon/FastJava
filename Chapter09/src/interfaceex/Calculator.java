@@ -12,4 +12,9 @@ public abstract class Calculator implements Calc{
     return num1 - num2;
   }
 
+  @Override
+  public void description() {
+    System.out.println("재정의 한 description");
+  }
+
 }
