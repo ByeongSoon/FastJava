@@ -22,10 +22,15 @@ public interface Calc {
       total += i;
     }
 
+    myStaticMethod();
     return total;
   }
 
-  private void myMethod() {
+  private void myMethod() { // private 메서드는 자바 9버전부터 사용가능
+    System.out.println("private method");
+  }
+
+  private static void myStaticMethod() {
     System.out.println("private method");
   }
 
