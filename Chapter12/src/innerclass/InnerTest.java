@@ -10,6 +10,7 @@ class OutClass {
     innerClass = new InnerClass();
   }
 
+  // Instance Inner Class
   class InnerClass {
     int iNum = 100;
 //    static int sInNum = 200; // InnerClass 에서는 static 사용 불가. static class로 만들면 가능
@@ -24,6 +25,7 @@ class OutClass {
     innerClass.inTest();
   }
 
+  // static Inner Class
   static class StaticInnerClass {
     int inNum = 100;
     static int sInNum = 200;
